@@ -1,0 +1,14 @@
+---
+apiVersion: k8s.cncf.io/v1alpha1
+kind: NodeResourceTopology
+metadata:
+  name: node1
+nodes:
+  - numaID: 1
+    resources:
+      cpu: "20"
+      vendor/nic1: "30"
+  - numaID: 2
+    resources:
+      cpu: "20"
+      vendor/nic1: "30"
