@@ -1,4 +1,4 @@
-module k8s.io/topo-controller
+module github.com/AlexeyPerevalov/topo-controller
 
 go 1.14
 
