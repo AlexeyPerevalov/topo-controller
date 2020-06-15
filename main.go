@@ -27,9 +27,6 @@ import (
 	// Uncomment the following line to load the gcp plugin (only required to authenticate against GKE clusters).
 	// _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 
-	//clientset "k8s.io/topo-controller/pkg/generated/clientset/versioned"
-	//informers "k8s.io/topo-controller/pkg/generated/informers/externalversions"
-        //"k8s.io/topo-controller/pkg/signals"
 	clientset "pkg/generated/clientset/versioned"
 	informers "pkg/generated/informers/externalversions"
 

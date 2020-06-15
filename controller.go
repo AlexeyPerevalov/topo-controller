@@ -33,13 +33,6 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog/v2"
 
-	//samplev1alpha1 "k8s.io/topo-controller/pkg/apis/topologycontroller/v1alpha1"
-	//clientset "k8s.io/topo-controller/pkg/generated/clientset/versioned"
-	//samplescheme "k8s.io/topo-controller/pkg/generated/clientset/versioned/scheme"
-	//informers "k8s.io/topo-controller/pkg/generated/informers/externalversions/topologycontroller/v1alpha1"
-	//listers "k8s.io/topo-controller/pkg/generated/listers/topologycontroller/v1alpha1"
-
-	//samplev1alpha1 "pkg/apis/topocontroller/v1alpha1"
 	clientset "pkg/generated/clientset/versioned"
 	samplescheme "pkg/generated/clientset/versioned/scheme"
 	informers "pkg/generated/informers/externalversions/topocontroller/v1alpha1"
