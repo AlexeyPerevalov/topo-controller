@@ -40,10 +40,10 @@ import (
 	//listers "k8s.io/topo-controller/pkg/generated/listers/topologycontroller/v1alpha1"
 
 	//samplev1alpha1 "pkg/apis/topocontroller/v1alpha1"
-	clientset "pkg/generated/clientset/versioned"
-	samplescheme "pkg/generated/clientset/versioned/scheme"
-	informers "pkg/generated/informers/externalversions/topocontroller/v1alpha1"
-	listers "pkg/generated/listers/topocontroller/v1alpha1"
+	clientset "github.com/AlexeyPerevalov/topo-controller/pkg/generated/clientset/versioned"
+	samplescheme "github.com/AlexeyPerevalov/topo-controller/pkg/generated/clientset/versioned/scheme"
+	informers "github.com/AlexeyPerevalov/topo-controller/pkg/generated/informers/externalversions/topocontroller/v1alpha1"
+	listers "github.com/AlexeyPerevalov/topo-controller/pkg/generated/listers/topocontroller/v1alpha1"
 )
 
 const controllerAgentName = "topo-controller"

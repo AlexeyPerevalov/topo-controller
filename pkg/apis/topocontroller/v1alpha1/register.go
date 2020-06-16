@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	topologycontroller "pkg/apis/topocontroller"
+	topologycontroller "github.com/AlexeyPerevalov/topo-controller/pkg/apis/topocontroller"
 )
 
 // SchemeGroupVersion is group version used to register these objects

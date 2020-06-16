@@ -30,10 +30,10 @@ import (
 	//clientset "k8s.io/topo-controller/pkg/generated/clientset/versioned"
 	//informers "k8s.io/topo-controller/pkg/generated/informers/externalversions"
         //"k8s.io/topo-controller/pkg/signals"
-	clientset "pkg/generated/clientset/versioned"
-	informers "pkg/generated/informers/externalversions"
+	clientset "github.com/AlexeyPerevalov/topo-controller/pkg/generated/clientset/versioned"
+	informers "github.com/AlexeyPerevalov/topo-controller/pkg/generated/informers/externalversions"
 
-	"pkg/signals"
+	"github.com/AlexeyPerevalov/topo-controller/pkg/signals"
 )
 
 var (
